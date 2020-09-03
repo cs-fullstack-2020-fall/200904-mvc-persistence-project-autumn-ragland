@@ -14397,6 +14397,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200904\\200904-mvc-persistence-project-autumn-ragland\\ArtistsInResidency\\Views\\ArtistProgram\\ViewAll.cshtml",
+      "TargetPath": "Views\\ArtistProgram\\ViewAll.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200904\\200904-mvc-persistence-project-autumn-ragland\\ArtistsInResidency\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -14412,8 +14417,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200904\\200904-mvc-persistence-project-autumn-ragland\\ArtistsInResidency\\Views\\ArtistProgram\\Index.cshtml",
+      "TargetPath": "Views\\ArtistProgram\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200904\\200904-mvc-persistence-project-autumn-ragland\\ArtistsInResidency\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200904\\200904-mvc-persistence-project-autumn-ragland\\ArtistsInResidency\\Views\\ArtistProgram\\ViewArt.cshtml",
+      "TargetPath": "Views\\ArtistProgram\\ViewArt.cshtml",
       "FileKind": "mvc"
     },
     {

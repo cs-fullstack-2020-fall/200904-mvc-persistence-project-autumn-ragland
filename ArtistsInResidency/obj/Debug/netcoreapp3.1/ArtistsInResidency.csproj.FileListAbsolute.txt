@@ -75,3 +75,6 @@ C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200904\200904-mvc-persi
 C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200904\200904-mvc-persistence-project-autumn-ragland\ArtistsInResidency\obj\Debug\netcoreapp3.1\ArtistsInResidency.dll
 C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200904\200904-mvc-persistence-project-autumn-ragland\ArtistsInResidency\obj\Debug\netcoreapp3.1\ArtistsInResidency.pdb
 C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200904\200904-mvc-persistence-project-autumn-ragland\ArtistsInResidency\obj\Debug\netcoreapp3.1\ArtistsInResidency.genruntimeconfig.cache
+C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200904\200904-mvc-persistence-project-autumn-ragland\ArtistsInResidency\obj\Debug\netcoreapp3.1\Razor\Views\ArtistProgram\Index.cshtml.g.cs
+C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200904\200904-mvc-persistence-project-autumn-ragland\ArtistsInResidency\obj\Debug\netcoreapp3.1\Razor\Views\ArtistProgram\ViewAll.cshtml.g.cs
+C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200904\200904-mvc-persistence-project-autumn-ragland\ArtistsInResidency\obj\Debug\netcoreapp3.1\Razor\Views\ArtistProgram\ViewArt.cshtml.g.cs

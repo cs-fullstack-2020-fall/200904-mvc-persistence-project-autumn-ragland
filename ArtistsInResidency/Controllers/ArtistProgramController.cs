@@ -15,41 +15,48 @@ namespace ArtistsInResidency.Controllers
         // landing page with navigation
         public IActionResult Index()
         {
-            return Content("Landing with Navigation");
+            // return Content("Landing with Navigation");
+            return View();
         }
         // view all artists
         public IActionResult ViewAll()
         {
-            return Content("View All Artist Details");
+            // return Content("View All Artist Details");
+            return View();
         }
         // view all artists works of art
         public IActionResult ViewArt()
         {
-            return Content("View All Works of Art");
+            // return Content("View All Works of Art");
+            return View();
         }
         // add artist
         [HttpPost]
         public IActionResult AddArtist()
         {
-            return Content("Add Artist");
+            // return Content("Add Artist");
+            return View("ViewAll");
         }
         // add art
         [HttpPost]
         public IActionResult AddArt()
         {
-            return Content("Add Art");
+            // return Content("Add Art");
+            return View("ViewAll");
         }
         // update art
         [HttpPut]
         public IActionResult UpdateArt()
         {
-            return Content("Update Art");
+            // return Content("Update Art");
+            return View("ViewAll");
         }
         // delete art
         [HttpDelete]
         public IActionResult DeleteArt()
         {
-            return Content("Delete Art");
+            // return Content("Delete Art");
+            return View("ViewAll");
         }
     }
 }
