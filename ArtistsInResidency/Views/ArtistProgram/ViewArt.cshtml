@@ -1,1 +1,17 @@
+@model ArtistsInResidency.Models.ArtistModel;
 <h1>View Art</h1>
+<h1>@Model.fName @Model.lName</h1>
+@if(@Model.associatedWorks.Count <= 0)
+{
+    <h3>This artist has no works</h3>
+}
+else 
+{
+   @foreach (ArtModel work in @Model.associatedWorks)
+    {
+        <p>Title : @work.title</p>
+        <p>Medium : @work.medium</p>
+        <p>Description : @work.description</p>
+        <p>Year Completed : @work.yearCompleted</p>
+    } 
+}

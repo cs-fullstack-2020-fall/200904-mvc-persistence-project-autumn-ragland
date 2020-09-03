@@ -1,1 +1,10 @@
+@model ArtistsInResidency.DAO.ArtistDbContext;
 <h1>View All</h1>
+@foreach (ArtistModel artist in @Model.artists)
+{
+    <p>ID : @artist.id</p>
+    <p>Name : @artist.fName @artist.lName</p>
+    <p>Alias : @artist.alias</p>
+    <p>Summary : @artist.summary</p>
+    <a asp-area="" asp-controller="ArtistProgram" asp-action="ViewArt" asp-route-artistID="@artist.id">View All Works</a>     
+}

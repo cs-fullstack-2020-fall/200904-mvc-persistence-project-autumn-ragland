@@ -53,7 +53,7 @@ namespace ArtistsInResidency
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=ArtistProgram}/{action=Index}/{id?}");
+                    pattern: "{controller=ArtistProgram}/{action=ViewAll}/{id?}");
             });
         }
     }

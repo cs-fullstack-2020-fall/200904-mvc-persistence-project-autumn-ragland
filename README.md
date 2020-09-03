@@ -17,6 +17,7 @@
 - Provide a typed or written draft of models needed in accordance with project details
 - Provide wire-frames for all views in accordance with project details
 - Provide postman collection for routes created in accordance with project details
+- Utilize bootstrap to style views
 - Include useful/meaningful comments in project files
 - Remove/replace any unnecessary/unused links in default MVC application
 
@@ -41,42 +42,28 @@
     - artist summary (about me paragraph) : required, under 150 characters
     - artist works of art
 
-- Navigation to view all artists in the residency and artists with over 5 or more works of art 
+- Update the startup file to display all artists when the application is launched instead of the home controller's index page
 
 - View All Artists 
     - GET request
-    - use a partial view to display each artist from the database
-    - display id, full name, alias, and summary
-	- if an artist has 1 or more works of art display the number of works of art and a link to view all associated works of art 
+    - display id, full name, alias, and summary for each artist from the database
+	- display a link to view all associated works of art 
 
 - View Artist Works of Art
     - GET request 
-    - use a partial view to display the details of each associated work of art
-	- accessed through a link in each artists information if that artist has 1 or more works of art
-    - display work of art id, title, medium, description, and year completed
+	- accessed through a link in each artists information
+    - display a view with work of art id, title, medium, description, and year completed
+    - if artist has no works of art display the text "This artist has no works"
 
 - Add an Artist
 	- POST request
     - add an artist to the database using a bound model
     - if data is valid, add Artist to database and display all artists in browser
-    - if data is NOT valid, display model error in browser
+    - if data is NOT valid, display a view with the model error in browser
 
 - Add an Artist's Work of Art
 	- POST request
     - add an artist's work of art to the database using a bound model
-    - if the artist associated with the new work of art is found and data is valid, add Work of Art to database and display all artist in browser
-    - if the artist associated with the new work of art is NOT found or data is NOT valid, display an appropriate message in the browser 
+    - if the artist associated with the new work of art is found and data is valid, add Work of Art to database and display all works of art associated with artist with newest work of art
+    - if the artist associated with the new work of art is NOT found or data is NOT valid, display a view with an appropriate message in the browser 
 
-- Update a Work of Art
-    - PUT request to update the title and description of a work of art from the database
-    - if data is valid, update work of art in database and display all artists in browser
-    - if data is NOT valid, display model error in browser
-
-- Delete a Work of Art
-    - DELETE request to remove a work of art from the database
-    - if deletion is successful display all artists in the
-    - if deletion is unsuccessful display useful message in the browser
-
-### BONUS
-- use bootstrap to style views and partial views
-- update the startup file to open display the Artist Residency Program controller's index or view all artist route when the application is launched instead of the home controller's route
