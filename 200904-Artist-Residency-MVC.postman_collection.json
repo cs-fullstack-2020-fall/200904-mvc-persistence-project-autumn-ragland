@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "5fe52a65-d29e-42c6-846b-4141b98883c8",
+		"name": "200904-Artist-Residency-MVC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "View All Artists",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/ArtistProgram/ViewAll",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"ArtistProgram",
+						"ViewAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View All Artist's Art",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/ArtistProgram/ViewArt",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"ArtistProgram",
+						"ViewArt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Artist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "fName",
+							"value": "Russell",
+							"type": "text"
+						},
+						{
+							"key": "lName",
+							"value": "Ragland",
+							"type": "text"
+						},
+						{
+							"key": "alias",
+							"value": "Eric",
+							"type": "text"
+						},
+						{
+							"key": "summary",
+							"value": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:5001/ArtistProgram/AddArtist",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"ArtistProgram",
+						"AddArtist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Art",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Accumsan",
+							"type": "text"
+						},
+						{
+							"key": "medium",
+							"value": "Stained Glass",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Fusce ut placerat orci nulla pellentesque dignissim. Diam sollicitudin tempor id eu nisl nunc mi ipsum. Mauris cursus mattis molestie a iaculis at.",
+							"type": "text"
+						},
+						{
+							"key": "yearCompleted",
+							"value": "1980",
+							"type": "text"
+						},
+						{
+							"key": "artistID",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:5001/ArtistProgram/AddArt",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"ArtistProgram",
+						"AddArt"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
