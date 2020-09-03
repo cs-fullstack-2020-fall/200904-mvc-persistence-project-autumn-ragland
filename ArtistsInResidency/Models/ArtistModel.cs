@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-
+// database model with model annotation for data validation
 namespace ArtistsInResidency.Models
 {
     public class ArtistModel

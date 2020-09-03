@@ -48,12 +48,12 @@ namespace ArtistsInResidency
             app.UseRouting();
 
             app.UseAuthorization();
-
+            // update default route to render in browser when application launches 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=ArtistProgram}/{action=Index}/{id?}");
             });
         }
     }

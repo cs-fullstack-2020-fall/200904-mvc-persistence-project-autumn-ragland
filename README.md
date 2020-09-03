@@ -77,4 +77,6 @@
     - if deletion is successful display all artists in the
     - if deletion is unsuccessful display useful message in the browser
 
-- BONUS : use bootstrap to style views and partial views
+### BONUS
+- use bootstrap to style views and partial views
+- update the startup file to open display the Artist Residency Program controller's index or view all artist route when the application is launched instead of the home controller's route
